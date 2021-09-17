@@ -1,0 +1,46 @@
+.comment-wrappeded {
+  display: flex;
+  margin-top: 2rem;
+  position: relative;
+  width: 47rem;
+  height: 17rem;
+  border-style: solid;
+  border-color: rgb(43, 41, 41);
+  border-radius: 8px;
+  background-color: black;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  white-space: normal;
+}
+.name-comm {
+  position: relative;
+  left: 1rem;
+  color: white;
+}
+.text-comm {
+  position: relative;
+  left: 1rem;
+  background-color: rgb(124, 120, 120);
+  width: 45rem;
+  height: 10rem;
+}
+
+.btns-comm {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 1rem;
+  left: -12rem;
+}
+.date-style {
+  font-style: italic;
+  position: relative;
+  left: 1rem;
+  color: rgb(124, 120, 120);
+}
+.likes {
+  position: relative;
+  color: white;
+  font-weight: bold;
+}

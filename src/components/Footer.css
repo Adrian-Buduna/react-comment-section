@@ -1,0 +1,23 @@
+button {
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: black;
+  background-color: #4b4b4b;
+  margin-left: 8px;
+  color: black;
+  transition: 0.3s;
+  justify-content: center;
+}
+button:hover {
+  border-color: rgb(255, 255, 255);
+  background-color: #000000;
+  color: white;
+  text-decoration: underline;
+}
+.btn-show-comm {
+  display: flex;
+  position: relative;
+  left: 40rem;
+  top: -14rem;
+}

@@ -1,0 +1,17 @@
+.like-box {
+  display: flex;
+  position: relative;
+  bottom: 6.5rem;
+  right: 5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  gap: 1rem;
+}
+.btn-like {
+  border-radius: 16px;
+  height: 2rem;
+  width: 2rem;
+  transition: 0.3s;
+}

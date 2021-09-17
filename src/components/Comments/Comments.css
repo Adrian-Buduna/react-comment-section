@@ -1,0 +1,24 @@
+.comments-box {
+  display: flex;
+  position: relative;
+  top: 5rem;
+  flex-direction: column-reverse;
+  align-items: center;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+}
+.btn-hide-comm{
+  position: fixed;
+  top: 24rem;
+  left: 20rem;
+  width: 10rem;
+  height: 3rem;
+}
+.span-number-comm{
+  display: flex;
+  font-weight: bold;
+  position: relative;
+  left:-3rem;
+  bottom:-1rem;
+}
