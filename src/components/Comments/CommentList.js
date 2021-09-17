@@ -1,9 +1,11 @@
+import React from 'react'
 import "./CommentList.css";
 import DateComm from "./DateComm";
 import LikeButton from "./LikeButton";
 
 const CommentList = (props) => {
   const date = props.comm.date;
+
   return (
     // returning comment element that displays date from array
     <form className="comment-wrappeded">

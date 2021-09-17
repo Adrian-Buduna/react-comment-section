@@ -1,6 +1,6 @@
 import FormAddComm from "./Comments/FormAddComm";
 import Comments from "./Comments/Comments";
-import { useState } from "react";
+import React, { useState } from "react";
 import "./Footer.css";
 
 const Footer = (props) => {

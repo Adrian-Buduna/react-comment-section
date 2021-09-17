@@ -1,5 +1,5 @@
 import "./FormAddComm.css";
-import { useState } from "react";
+import React, { useState } from "react";
 import { upperCaseFirstLeterString, anonimName } from "../Functions/Functions";
 const FormAddComm = (props) => {
   const [isName, setIsName] = useState("");
